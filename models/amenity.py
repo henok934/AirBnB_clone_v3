@@ -1,5 +1,10 @@
-#!/usr/bin/python
-""" holds class Amenity"""
+!/usr/bin/python
+""" 
+holds class Amenity 
+Authored by: Teklemariam Mossie
+date_created: 5/1/2023
+
+"""
 import models
 from models.base_model import BaseModel, Base
 from os import getenv

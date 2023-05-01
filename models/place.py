@@ -1,5 +1,9 @@
 #!/usr/bin/python
-""" holds class Place"""
+""" 
+holds class Place
+Authored by: Teklemariam Mossie
+date_created:  5/1/2023
+"""
 import models
 from models.base_model import BaseModel, Base
 from os import getenv

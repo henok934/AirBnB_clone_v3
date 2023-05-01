@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-""" holds class State"""
+""" 
+holds class State
+Authored by: Teklemariam Mossie
+date_created: 5/1/2023
+"""
 import models
 from models.base_model import BaseModel, Base
 from models.city import City

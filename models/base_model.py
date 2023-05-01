@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 Contains class BaseModel
+Authored by: Teklemariam Mossie 
+date_created: 5/1/2023
 """
 
 from datetime import datetime

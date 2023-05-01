@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""
-initialize the models package
+""" 
+Authored by: Teklemariam Mossie
+date_created: 5/1/2023
 """
 
 from os import getenv
