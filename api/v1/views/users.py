@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-""" Serves the users """
+""" 
+Serves the users 
+Authored by:Teklemariam Mossie
+date_created: 5/1/2023
+"""
 from flask import Flask, jsonify, abort, request, make_response
 from api.v1.views import app_views
 from models import storage

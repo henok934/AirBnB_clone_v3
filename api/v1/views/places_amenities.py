@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" Lists Place objects and Amenity objects """
+"""
+Authored by Teklemariam Mossie
+date_created: 5/1/2023
+"""
 
 from flask import Flask, jsonify, abort, request, make_response
 from api.v1.views import app_views
@@ -12,11 +15,6 @@ import os
 @app_views.route("/places/<place_id>/amenities", strict_slashes=False,
                  methods=['GET'])
 def get_place_amenity(place_id=None):
-    """
-    Returns list of amenities objects linked to any place
-    with place_id: Returns place objects
-    without place_id: 404
-    """
     place = storage.get(Place, place_id)
     if place is None:
         abort(404)
