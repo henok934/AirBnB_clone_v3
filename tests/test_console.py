@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 Contains the class TestConsoleDocs
+Authored by: Teklemariam Mossie
+date_created: 5/1/2023
 """
 
 import console
