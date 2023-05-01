@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Test BaseModel for expected behavior and documentation"""
+"""
+Test BaseModel for expected behavior and documentation
+Authored by: Teklemariam Mossie
+date_created: 5/1/2023
+"""
 from datetime import datetime
 import inspect
 import models
